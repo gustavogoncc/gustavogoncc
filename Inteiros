@@ -1,0 +1,13 @@
+public class Inteiros {
+	public static void main(String[]args) {
+		// instanciação do array
+		int [] idades = new int[100];
+		
+		for(int i = 0; i < 100; i++) {
+			idades[i] = i * 2;
+			System.out.println("Idade na posição"+i+"="+idades[i]);
+		}
+	
+	}
+
+}
