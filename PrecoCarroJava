@@ -1,0 +1,20 @@
+public class PrecoCarro {
+	public static void main(String[]args) {
+		int anoDoCarro = 2023;
+		int KmRodados = 100;
+		int tempoDeUso = 4;
+		int valorCarro = 10;
+		
+		if(anoDoCarro <=2020) {
+			valorCarro = 80000 + (KmRodados * tempoDeUso);
+		}else if(anoDoCarro == 2022) {
+			valorCarro = 85000 +(KmRodados * tempoDeUso);
+		} else {
+			valorCarro =  95000 +(KmRodados * tempoDeUso);
+		}
+		
+		System.out.println(valorCarro);
+		
+	}
+
+}
