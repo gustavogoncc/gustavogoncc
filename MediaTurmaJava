@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class MediaTurma {
+	
+	public static void main(String[]args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Quantos alunos tem na sala? ");
+		int numAlunos = sc.nextInt();
+		
+		int somaNotas =0;
+		for(int i = 1; i <= numAlunos; i++) {
+			System.out.printf("Digite a nota do aluno %d: ", i);
+			int nota = sc.nextInt();
+			somaNotas += nota;
+		}
+	
+		double media = (double) somaNotas / numAlunos;
+		System.out.printf("A média da turma é %.2f\n", media);
+		
+		sc.close();
+	}
+
+}
