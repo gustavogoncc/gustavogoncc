@@ -1,0 +1,10 @@
+public class ExpressaoLogica {
+	public static void main(String[]args) {
+		int numero1 = 100;
+		int numero2 = 200;
+		boolean expressao = (numero1 == 100) && (numero2 == 200);
+		
+		System.out.println("Resultado da expressão: "+ expressao);
+	}
+
+}
