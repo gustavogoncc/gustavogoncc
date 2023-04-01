@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+
+public class DoisMaioresNumeros {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int maior1 = Integer.MIN_VALUE;
+        int maior2 = Integer.MIN_VALUE;
+
+        for (int i = 0; i < 10; i++) {
+            System.out.print("Digite um número: ");
+            int numero = sc.nextInt();
+
+            if (numero > maior1) {
+                maior2 = maior1;
+                maior1 = numero;
+            } else if (numero > maior2) {
+                maior2 = numero;
+            }
+        }
+
+        System.out.println("Os dois maiores números digitados foram: " + maior1 + " e " + maior2);
+        sc.close();
+    }
+}
