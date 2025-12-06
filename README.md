@@ -92,3 +92,4 @@ Se quiser falar comigo sobre oportunidades, projetos ou networking:
 <div align="center">  
   <sub>Feito com dedicação por José Gustavo G. da Silva ☕</sub>
 </div>
+
