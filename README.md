@@ -84,8 +84,8 @@ Um projeto inicial de sistema bancário orientado a objetos.
 
 Se quiser falar comigo sobre oportunidades, projetos ou networking:
 
-📧 **E-mail:** *adicione aqui*  
-💼 **LinkedIn:** *adicione aqui*  
+📧 **E-mail: gugagoncc@gmail.com** 
+💼 **LinkedIn:** https://www.linkedin.com/in/gustavogoncalves10/**
 
 ---
 
